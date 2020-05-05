@@ -1,0 +1,41 @@
+{
+  "name": "baby-things",
+  "version": "1.0.0",
+  "description": "random nice-to-have items generator for your baby",
+  "main": "src/index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robesansan/baby-things.git"
+  },
+  "keywords": [
+    "baby",
+    "things",
+    "items",
+    "nice-to-have",
+    "buy"
+  ],
+  "author": "Roberto Sanchez Sancho <roberto.san.san@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robesansan/baby-things/issues"
+  },
+  "homepage": "https://github.com/robesansan/baby-things#readme",
+  "devDependencies": {
+    "commitizen": "4.1.2",
+    "cz-conventional-changelog": "3.2.0",
+    "ghooks": "2.0.4",
+    "validate-commit-msg": "2.14.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    },
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
+    }
+  }
+}
