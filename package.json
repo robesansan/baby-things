@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
+    "lint": "eslint src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +25,9 @@
     "url": "https://github.com/robesansan/baby-things/issues"
   },
   "homepage": "https://github.com/robesansan/baby-things#readme",
+  "dependencies": {
+    "unique-random-array": "2.0.0"
+  },
   "devDependencies": {
     "commitizen": "4.1.2",
     "cz-conventional-changelog": "3.2.0",
