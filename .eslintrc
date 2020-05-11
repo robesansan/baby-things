@@ -21,13 +21,5 @@
     ],
     "rules": {
         "import/no-commonjs": 0
-    },
-    "overrides": [
-        {
-            "files": ["*.test.js"],
-            "rules": {
-                "prefer-arrow-callback": "off"
-            }
-        }
-    ]
+    }
 }
