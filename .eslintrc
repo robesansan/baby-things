@@ -18,8 +18,5 @@
     "plugins": [
         "mocha",
         "import"
-    ],
-    "rules": {
-        "import/no-commonjs": 0
-    }
+    ]
 }
