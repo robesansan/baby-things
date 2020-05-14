@@ -11,6 +11,7 @@
     "build:umd.min": "webpack --output-filename index.umd.min.js -p",
     "commit": "git-cz",
     "lint": "eslint src",
+    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "test": "cross-env NODE_ENV=test nyc mocha",
     "test:watch": "mocha --watch",
     "validate": "npm-run-all --parallel test lint build"
@@ -47,6 +48,7 @@
     "babel-loader": "8.1.0",
     "babel-plugin-istanbul": "6.0.0",
     "chai": "4.2.0",
+    "codecov": "3.6.5",
     "commitizen": "4.1.2",
     "cross-env": "7.0.2",
     "cz-conventional-changelog": "3.2.0",
