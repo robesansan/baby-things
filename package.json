@@ -64,7 +64,7 @@
     "validate-commit-msg": "2.14.0",
     "webpack": "4.43.0",
     "webpack-cli": "3.3.11",
-    "semantic-release": "^17.0.7"
+    "semantic-release": "^19.0.3"
   },
   "nyc": {
     "all": true,
